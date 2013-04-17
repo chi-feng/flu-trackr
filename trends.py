@@ -30,14 +30,14 @@ for line_number, line in enumerate(data):
       
 def normalize_trends():
   # 0 is date, 1 is US, followed by 50 states
-  for i in range(1, 52):
+  for i in range(1, 53):
     timestamps, values = zip(*trends[i]);
     # 104 is 2x52 weeks/year, so two years
     baseline = stats.scoreatpercentile(values[-104:], 30)
     trends[i] = [[timestamps[j], values[j] / baseline] for j in range(len(trends[i]))]
     
 def save_trends():
-  for i in range(1, 52):
+  for i in range(1, 53):
     name = names[i]
     print name.replace(" ", "-");
     trend = trends[i]
@@ -52,7 +52,7 @@ normalize_trends()
 save_trends()
 
 out = open('trends/national.txt', 'w')
-for i in range(1, 52):
+for i in range(1, 53):
   name = names[i]
   name = name.replace(" ", "-");
   trend = trends[i]

@@ -84,7 +84,6 @@ function geocode(address) {
       success: function(data) {
         position[0] = data.results[0].geometry.location.lat;
         position[1] = data.results[0].geometry.location.lng;
-        console.log(position);
         return position;
       },
       error: function(e) {
@@ -107,7 +106,6 @@ function geocode(address) {
 
 function vf_search() {
   var position = geocode($('#vf-address').val());
-  console.log(position);
   vf_update(position[0], position[1]);
 }
 
@@ -148,7 +146,6 @@ function vf_update(lat, lng) {
     data: {id : user.id, lat:initialLocation.lat(), lng:initialLocation.lng()},
     dataType: "json",
     success: function(data) {
-      $.ambiance({message: 'Retrieved <strong>' + data.markers.length + '</strong> markers from server'});
       vf_map.setZoom(parseInt(data.zoom));
       var items = [];
 
@@ -306,28 +303,39 @@ function rv_submit() {
  );
 }
 
+function colormap(x, trans) {
+  var a = 1;
+  if (typeof trans != 'undefined') {
+    a = trans;
+  }
+  var r = 1 * 255;
+  var g = Math.round(Math.min(1.0-x*x, 1.0) * 255);
+  var b = Math.round((1 - Math.pow(x, 0.7)) * 255);
+  return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
+}
 
-function national_map() {
+function national_map(states) {
+  var styles = Object();
+  for (var i = 1; i < states.length; i++) {
+    var state = states[i];
+    var rgb = colormap(state.value);
+    styles[state.name] = {fill: rgb};
+  }
   $('#usmap').usmap({
     'stateStyles': {
       fill: '#fff', 
       "stroke-width": 1,
-      'stroke' : '#ccc'
+      'stroke' : '#666'
     },
-    'stateSpecificStyles': {
-	      'IN' : {fill: '#f00'}
-	  },
-    'stateHoverStyles': {
-      fill: '0cf'
-    },
+    'stateSpecificStyles': styles,
     'click' : function(event, data) {
-      $.ambiance({message: data.name});
+      initialize_surveillance(data.name);
     }
   });
 }
 
-function initialize_surveillance() {
-  national_map();
+function initialize_surveillance(target) {
+  
   geolocate(function(position) {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
@@ -364,13 +372,22 @@ function initialize_surveillance() {
         );
       }
       
+      var state_ajax = state.replace(/ /g,"-");
+      if (typeof target != 'undefined') {
+        state_ajax = target;
+      }
+      
       $.post("/ajax.php", 
-        { action: 'trend', state: state.replace(/ /g,"-") },
+        { action: 'trend', state: state_ajax },
         function(data) {
 
           if (typeof data.message != 'undefined') {
               $.ambiance({message: data.message});
           }
+          
+          console.log(data);
+
+          national_map(data.states);
           
           $('#trend-plot-canvas').html('');
           
@@ -396,15 +413,29 @@ function initialize_surveillance() {
           var xmin = data.start*1000;
           var xmax = data.end*1000;
           
+          var markings = [
+          { color: colormap(0.1), lineWidth: 5, yaxis: { from: 0.1, to: 0.1 } },
+          { color: colormap(0.2), lineWidth: 5, yaxis: { from: 0.2, to: 0.2 } },
+          { color: colormap(0.4), lineWidth: 5, yaxis: { from: 0.4, to: 0.4 } },
+          { color: colormap(0.8), lineWidth: 5, yaxis: { from: 0.8, to: 0.8 } }
+          ]
+          
           $.plot($("#trend-plot-canvas"), 
-            [ { label: state, data: trends, color: "#369" },
-              { label: 'US Average', data: national, color: "#963" } ], 
-            { grid: { backgroundColor: { colors: ["#fff", "#ddd"] } }, 
-              yaxis: { min:0, max: 1}, 
+            [ { data: trends, color: "#000", lineWidth: 2 },
+              { label: 'US Average', data: national, lineWidth: 1, color: "rgba(0,0,0,0.3)" }
+               ], 
+            { grid: { 
+              backgroundColor: { colors: [colormap(1.0,0.5), colormap(0.5,0.5), colormap(0,0.5)] },
+              markings: markings }, 
+              yaxis: { min:0, max: 1,  
+                ticks: [[0.1, 'Minimal'], [0.2, 'Low'], [0.4, 'Moderate'],[0.8,'Intense']] 
+              }, 
               xaxis: { mode: "time", timeformat: "%b", min: xmin, max: xmax, tickSize: [1, "month"]  } } 
           ); 
-          $('#trend-plot-title').html('Flu trend data for ' + state);
           
+          $('#trend-plot-title').html('Flu trend data for ' + data.state.replace(/-/g," "));
+          
+          clearAction();
           
         },
         'json'

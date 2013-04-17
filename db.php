@@ -214,8 +214,8 @@ If you would like to unsubscribe to flu alerts, click <a href='http://flu-trackr
   }
   
   # returns insertion ID if success and -1 if error
-  public function user_share($id, $points){
-    $sql = "UPDATE users SET sharescore = sharescore + '$points' WHERE $id = '$id'";
+  public function user_share($id){
+    $sql = "UPDATE users SET sharescore = sharescore + '20' WHERE id = '$id'";
     if ($result = $this->query($sql)) {
     return($this->mysqli->insert_id);
     } else {

@@ -54,10 +54,14 @@ function openPage(pageName, ignoreHistoryPush) {
   if (pageName == 'Scoreboard') {
     $('#scoreboard').hide();
   }
+  
+  if (pageName == 'Flu-Trends') {
+    setAction("Loading Surveillance Data", true);
+  }
 
   $('#page-' + pageName).delay(200).fadeIn(300, function() {
 
-    if (pageName == 'Vaccine-Finder') {
+    if (pageName == 'Vaccine-Locator') {
       initialize_vf();
     }
     
@@ -225,6 +229,18 @@ function sendRequestInvite() {
   }, function(response) {
     console.log(response);
     console.log('sendRequestInvite UI response: ', response);
+ if(response instanceof Object == true){
+        $.post("/ajax.php",
+          { action: 'user_share', id: user.id },
+          function(data) {
+            if (typeof data.message != 'undefined') {
+              $.ambiance({message: data.message});
+                update_score();
+           }
+        },
+        'json'
+       );     
+}
   });
 }
 
@@ -241,6 +257,22 @@ function publishStory() {
   }, 
   function(response) {
     console.log('publishStory UI response: ', response);
+    if(response instanceof Object == true){
+        $.post("/ajax.php", 
+          { action: 'user_share', id: user.id },
+          function(data) {
+            if (typeof data.message != 'undefined') {
+              $.ambiance({message: data.message});
+		update_score();
+	   }
+        },
+        'json'
+       );               
+
+
+
+    }
+
   });
 }
 

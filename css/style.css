@@ -20,13 +20,14 @@ body.connected .show_when_connected { display: block; }
 body.not_connected .show_when_not_connected { display: block; }
 body.not_connected .show_when_connected { display: none; }
 
-#action{display:none;position:fixed;background-color:#fff;opacity:0.9;filter:alpha(opacity=90);font-size:1.5em;font-weight:bold;width:100%;max-width: 320px; height:1250px;text-align:center;color:#323232;padding-top:100px;z-index:99;}
+#action{display:block;position:fixed;background-color:#fff;opacity:0.9;filter:alpha(opacity=90);font-size:1.5em;font-weight:bold;width:100%;max-width: 320px; height:1250px;text-align:center;color:#323232;padding-top:100px;z-index:99;}
 #action #msg{position:relative;margin:0px auto;}
 #action #loading-icon{background:url('../img/loader.gif');position:relative;margin:0px auto;width:16px;height:11px;margin-bottom:15px;}
 
 body { background: #e5e5e5 url('whitey.png'); background-attachment: fixed;
 max-width: 320px;
 margin: 0 auto;
+min-height: 110%;
 }
 
 #mobile-warning { display: none; 
@@ -656,7 +657,7 @@ span.player-score {
 
 #trend-plot-title {
   display: block;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   font-size:16px;
   line-height: 25px;

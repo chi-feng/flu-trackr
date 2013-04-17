@@ -17,6 +17,12 @@ if ($_REQUEST['action'] == 'user_checkin') {
   $db->user_checkin($_REQUEST['id'], $_REQUEST['name']);
 }
 
+if ($_REQUEST['action'] == 'user_share'){
+  $db->user_share($_REQUEST['id']);
+  if($results != -1){
+    echo json_encode(array('message' => 'Thanks for sharing! You have been rewarded.'));
+  }
+}
 // get the list of friends that use the app
 // update friend network table 
 // recompute score using new friend network 
@@ -90,21 +96,105 @@ $allowed_states = array(
   'Montana', 'Nebraska', 'Nevada', 'New-Hampshire', 'New-Jersey', 'New-Mexico', 'New-York',
   'North-Carolina', 'North-Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania',
   'Rhode-Island', 'South-Carolina', 'South-Dakota', 'Tennessee', 'Texas', 'Utah',
-  'Vermont', 'Virginia', 'Washington', 'West-Virginia', 'Wisconsin'
+  'Vermont', 'Virginia', 'Washington', 'West-Virginia', 'Wisconsin','Wyoming'
 );
 
 $states_short = array(
-  'AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA',
+  'US','AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA',
   'KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NV','NH','NJ','NM','NY',
-  'NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI'
+  'NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'
 );
 
+$short_states = array(
+  'United-States' =>  'US',
+  'Alabama' =>  'AL',
+  'Alaska' =>  'AK',
+  'Arizona' =>  'AZ',
+  'Arkansas' =>  'AR',
+  'California' =>  'CA',
+  'Colorado' =>  'CO',
+  'Connecticut' =>  'CT',
+  'Delaware' =>  'DE',
+  'District-of-Columbia' =>  'DC',
+  'Florida' =>  'FL',
+  'Georgia' =>  'GA',
+  'Hawaii' => 'HI',
+  'Idaho' =>  'ID',
+  'Illinois' =>  'IL',
+  'Indiana' =>  'IN',
+  'Iowa' =>  'IA',
+  'Kansas' =>  'KS',
+  'Kentucky' =>  'KY',
+  'Louisiana' =>  'LA',
+  'Maine' =>  'ME',
+  'Maryland' =>  'MD',
+  'Massachusetts' =>  'MA',
+  'Michigan' =>  'MI',
+  'Minnesota' =>  'MN',
+  'Mississippi' =>  'MS',
+  'Missouri' =>  'MO',
+  'Montana' =>  'MT',
+  'Nebraska' => 'NE',
+  'Nevada' =>  'NV',
+  'New-Hampshire' =>  'NH',
+  'New-Jersey' =>  'NJ',
+  'New-Mexico' =>  'NM',
+  'New-York' =>  'NY',
+  'North-Carolina' =>  'NC',
+  'North-Dakota' =>  'ND',
+  'Ohio' =>  'OH',
+  'Oklahoma' =>  'OK',
+  'Oregon' =>  'OR',
+  'Pennsylvania' =>  'PA',
+  'Rhode-Island' =>  'RI',
+  'South-Carolina' =>  'SC',
+  'South-Dakota' =>  'SD',
+  'Tennessee' =>  'TN',
+  'Texas' =>  'TX',
+  'Utah' =>  'UT',
+  'Vermont' =>  'VT',
+  'Virginia' =>  'VA',
+  'Washington' =>  'WA',
+  'West-Virginia' =>  'WV',
+  'Wisconsin' => 'WI',
+  'Wyoming' => 'WY'
+);
+
+
 function process_us() {
+  global $allowed_states, $short_states;
+  $file = file('trends/national.txt');
+  $data = array();
+  foreach ($file as $line) {
+    $tokens = explode(' ', $line);
+    $state = $tokens[0];
+    $state_short = $short_states[$state];
+    $value = floatval(trim($tokens[1])) / 8;
+    if ($value > 1.0) $value = 1.0;
+    $data[] = array('name'=>$state_short, 'value'=>$value);
+  }
+  return $data;
+}
+
+function short_to_long($state) {
+  global $short_states;
+  if (strlen($state) == 2) {
+    foreach($short_states as $key=>$value) {
+      if ($value == $state) {
+        $state = $key; 
+        return $key;
+      }
+    }
+  } else {
+    return $state;
+  }
+  return 'United-States';
   
 }
 
 function process_trend($state) {
-  global $allowed_states, $states_short;
+  global $allowed_states, $short_states;
+  
   $data = array();
   if (in_array($state, $allowed_states)) {
     $file = file('trends/'.$state.'.txt');
@@ -131,9 +221,11 @@ function process_trend($state) {
 if ($_REQUEST['action'] == 'trend') {
 
   $state = $_REQUEST['state'];
+  $state = short_to_long($state);
   
   $data = process_trend($state); 
   $national = process_trend('United-States');
+  $states = process_us();
   
   if (time() < strtotime(date('Y').'-07')) {
     $start = strtotime((date('Y')-1).'-07');
@@ -144,9 +236,10 @@ if ($_REQUEST['action'] == 'trend') {
   }
     
   echo json_encode(array(
-    'message'=>'Loaded '.$state.' flu trend data',
+    'state' => $state,
     'trends' => $data,
     'national' => $national,
+    'states' => $states,
     'start' => $start,
     'end' => $end));
   
