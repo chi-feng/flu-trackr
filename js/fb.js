@@ -236,7 +236,7 @@ function publishStory() {
     caption: 'Flu-Trackr',
     description: 'Get vaccinated and become a flu hero!',
     link: 'http://flu-trackr.com/',
-    picture: 'http://www.facebookmobileweb.com/hackbook/img/facebook_icon_large.png',
+    picture: 'http://flu-trackr.com/img/facebook_icon_large.png',
     actions: [{ name: 'Get Started', link: 'http://flu-trackr.com/' }],
   }, 
   function(response) {

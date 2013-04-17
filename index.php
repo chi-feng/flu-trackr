@@ -9,7 +9,7 @@ session_start();
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://flu-tracker.com" />
   <meta property="og:site_name" content="Flu-Trackr" />
-  <meta property="og:image" content="http://www.facebookmobileweb.com/hackbook/img/facebook_icon_large.png"/>
+  <meta property="og:image" content="/img/facebook_icon_large.png"/>
   <meta property="fb:admins" content="20901205" />
   <meta property="fb:app_id" content="528792943826588" />
   
@@ -18,9 +18,9 @@ session_start();
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   
   <!-- See https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html -->
-  <link rel="apple-touch-icon" href="http://www.facebookmobileweb.com/hackbook/img/iphone_icon.png" />
-  <link rel="apple-touch-startup-image" href="http://www.facebookmobileweb.com/hackbook/img/iphone_splash.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://www.facebookmobileweb.com/hackbook/img/iphone_icon.png" />
+  <link rel="apple-touch-icon" href="/img/iphone_icon.png" />
+  <link rel="apple-touch-startup-image" href="/img/iphone_splash.png" />
+  <link rel="apple-touch-icon-precomposed" href="/img/iphone_icon.png" />
   
   <!-- See http://davidbcalhoun.com/2010/viewport-metatag for information on the viewport tag. -->
   <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
@@ -145,6 +145,7 @@ session_start();
       Waiting for reverse-geolocation and flu trend data.
     </div>  
   </div>
+  <div id="usmap" style="width:320px;height:320px"></div>
    <img src="/assets/map-placeholder.png" width="100%" /><br />
   </div>
   
@@ -302,11 +303,10 @@ session_start();
     <div id="report_button" class="button button-requires-connect" onclick="openPage('Report-Vaccination');">Report a vaccination (+100 pts)</div>
     <div class="button button-requires-connect"><a href="https://twitter.com/share" data-lang="en" data-related="FluTrackr:The Javascript API" data-count="none">Tweet</a></div>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <h3>What is the rationale behind the points?</h3>
+    <h3>The point award system:</h3>
     <p>
       The goal of Flu-Trackr is to encourage as many people to get vaccinated as possible. Social networking research shows that 
-rewarding the messengers is the best way to get a message across much of a network as possible. This is why you are rewarded for
- both getting vaccinated yourself and spreading the word to your friends and if your friends get vaccinated.
+rewarding the messengers is the best way to get a message across as much of a network as possible. Thus, in addition to getting rewarded for getting vaccinated yourself, you receive points for spreading the word to your friends and for when your friends get vaccinated.
     </p>
     <img src="/assets/network.png" width="300" style="margin: 0 auto;" />
   </div>
@@ -329,44 +329,25 @@ rewarding the messengers is the best way to get a message across much of a netwo
   <div id="page-About-Us" class="page">
 <div class="markdown">
 <h3>What is Flu-Trackr?</h3>
-<p>Getting the flu is not only unpleasant, but can be deadly. The flu causes over 200,000 cases of hospitalization and 3,000 deaths a year in the United States alone. Its highly mutagenic nature means 
+<p>Getting the flu is not only unpleasant, but can be deadly. The flu causes over 200,000 hospitalizations and 3,000 deaths a year in the United States alone. Its highly mutagenic nature means 
 that you should get vaccinated every year to protect yourself&mdash;and others&mdash;from the latest strain.
 
 <p>Flu-Trackr is an app designed to get as many people 
 vaccinated against the flu as possible by answering the five W's:</p>
-<p><strong>Who?</strong> You and as many of your friends as possible, and their friends, and friends of friends of friends...</p>
+<p><strong>Who?</strong> You and as many of your friends as possible, and your friends' friends, and your friends' friends' friends...</p>
 <p><strong>What?</strong> The 
-seasonal flu vaccine that usually come out in the fall before the mid-winter flu season peak.</p>
+seasonal flu vaccine, which typically comes out in the fall before the peak of the annual flu season in the United States.</p>
 <p><strong>When?</strong> Check our Flu Trends and sign up for text/email alerts on when to get the flu vaccine.</p>
-<p><strong>Where?</strong> The Vaccine Finder feature will find 
+<p><strong>Where?</strong> The Vaccine Locator feature will find 
 the clinics closest to you. </p>
-<p><strong>Why?</strong> Getting vaccinated and spreading the word will not only prevent unpleasantness and sick days, but earn you Flu Hero Points as well.</p>
-</div>
-    <div class="markdown">
+<p><strong>Why?</strong> Getting vaccinated and spreading the word will prevent unpleasantness and sick days, and earn you Flu Hero Points as well!</p>
       <h3>The Flu-Trackr Team</h3>
-      <p>Something about something</p>
-      <h3>Meet the team</h3>
-      <div class="team-member">
-        <h4>Chi Feng (MIT)</h4>
-        <p>Something about Chi</p>
-      </div>
-      <div class="team-member">
-        <h4>Helena Zhang (MIT)</h4>
-        <p></p>
-      </div>
-      <div class="team-member">
-        <h4>ZeNan Chang (UCLA)</h4>
-        <p>Something about ZeNan</p>
-      </div>
-      <div class="team-member">
-        <h4>Allen Lin (Harvard)</h4>
-        <p>Something about Allen</p>
-      </div>
-      <div class="team-member">
-        <h4>Sourav Sinha (Dartmouth)</h4>
-        <p>Something about Sourav</p>
-      </div>
-    <div>
+        <p>ZeNan Chang (UCLA)<p>
+        <p>Chi Feng (MIT)</p>
+        <p>Allen Lin (Harvard)<p>
+        <p>Sourav Sinha (Dartmouth)<p>
+        <p>Helena Zhang (MIT)</p>
+    </div>
   </div>
 
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQOHsYmVnsBjWkvLJZfelxvHoeRh7IarM&sensor=true"></script> 
@@ -379,5 +360,6 @@ the clinics closest to you. </p>
 
   <script type="text/javascript" src="js/raphael.js"></script>
   <script type="text/javascript" src="js/color.jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.usmap.js"></script>
 </body>
 </html>

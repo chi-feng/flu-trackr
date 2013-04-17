@@ -18275,3 +18275,497 @@
 2013-04-17 03:38:44 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1333170290'
 2013-04-17 03:38:44 UPDATE users SET friendscore = '500' WHERE id = '3501844'
 2013-04-17 03:38:44 UPDATE users SET friends = '1350', last_login =  '1366169924' WHERE id = '3501844'
+2013-04-17 03:42:20 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:42:20 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:42:22 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:42:22 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '3501844'
+2013-04-17 03:42:22 UPDATE users SET basescore = '60' WHERE id = '3501844'
+2013-04-17 03:42:22 DELETE FROM friends WHERE user_id1 = '3501844' OR user_id2 = '3501844'
+2013-04-17 03:42:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366169924'
+2013-04-17 03:42:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '500022672')
+2013-04-17 03:42:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:42:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366169924'
+2013-04-17 03:42:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '534330322')
+2013-04-17 03:42:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:42:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366169924'
+2013-04-17 03:42:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '606026803')
+2013-04-17 03:42:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:42:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1246980326' AND vaccinations.timestamp > '1366169924'
+2013-04-17 03:42:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:42:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1246980326'
+2013-04-17 03:42:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366169924'
+2013-04-17 03:42:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1317645191')
+2013-04-17 03:42:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:42:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1333170290' AND vaccinations.timestamp > '1366169924'
+2013-04-17 03:42:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1333170290')
+2013-04-17 03:42:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1333170290'
+2013-04-17 03:42:22 UPDATE users SET friendscore = '500' WHERE id = '3501844'
+2013-04-17 03:42:22 UPDATE users SET friends = '1350', last_login =  '1366170142' WHERE id = '3501844'
+2013-04-17 03:42:36 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:42:36 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:42:37 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:42:37 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:42:37 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:42:37 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:42:37 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366169409'
+2013-04-17 03:42:37 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:42:37 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:42:37 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:42:37 UPDATE users SET friends = '441', last_login =  '1366170157' WHERE id = '1246980326'
+2013-04-17 03:43:53 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:43:53 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:43:54 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:43:54 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:43:54 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:43:54 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:43:54 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170157'
+2013-04-17 03:43:54 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:43:54 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:43:54 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:43:54 UPDATE users SET friends = '441', last_login =  '1366170234' WHERE id = '1246980326'
+2013-04-17 03:44:04 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:04 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:05 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:05 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:44:05 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:44:05 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:44:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170234'
+2013-04-17 03:44:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:44:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:44:05 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:44:05 UPDATE users SET friends = '441', last_login =  '1366170245' WHERE id = '1246980326'
+2013-04-17 03:44:22 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:22 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:22 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:22 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:44:22 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:44:22 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:44:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170245'
+2013-04-17 03:44:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:44:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:44:22 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:44:22 UPDATE users SET friends = '441', last_login =  '1366170262' WHERE id = '1246980326'
+2013-04-17 03:44:24 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='1246980326'
+2013-04-17 03:44:42 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:42 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:43 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:44:43 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:44:43 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:44:43 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:44:43 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170262'
+2013-04-17 03:44:43 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:44:43 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:44:43 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:44:43 UPDATE users SET friends = '441', last_login =  '1366170283' WHERE id = '1246980326'
+2013-04-17 03:45:25 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:45:25 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:45:26 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:45:26 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:45:26 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:45:26 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:45:26 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170283'
+2013-04-17 03:45:26 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:45:26 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:45:26 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:45:26 UPDATE users SET friends = '441', last_login =  '1366170326' WHERE id = '1246980326'
+2013-04-17 03:45:28 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='1246980326'
+2013-04-17 03:45:40 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 03:45:40 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 03:45:41 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 03:45:41 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '500022672'
+2013-04-17 03:45:41 UPDATE users SET basescore = '60' WHERE id = '500022672'
+2013-04-17 03:45:41 DELETE FROM friends WHERE user_id1 = '500022672' OR user_id2 = '500022672'
+2013-04-17 03:45:41 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366169738'
+2013-04-17 03:45:41 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '500022672')
+2013-04-17 03:45:41 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:45:41 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366169738'
+2013-04-17 03:45:41 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '606026803')
+2013-04-17 03:45:41 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:45:41 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '618566894' AND vaccinations.timestamp > '1366169738'
+2013-04-17 03:45:41 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '618566894')
+2013-04-17 03:45:41 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '618566894'
+2013-04-17 03:45:41 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366169738'
+2013-04-17 03:45:41 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '708605683')
+2013-04-17 03:45:41 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:45:41 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1246980326' AND vaccinations.timestamp > '1366169738'
+2013-04-17 03:45:41 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:45:41 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1246980326'
+2013-04-17 03:45:41 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366169738'
+2013-04-17 03:45:41 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1317645191')
+2013-04-17 03:45:41 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:45:41 UPDATE users SET friendscore = '400' WHERE id = '500022672'
+2013-04-17 03:45:41 UPDATE users SET friends = '318', last_login =  '1366170341' WHERE id = '500022672'
+2013-04-17 03:45:45 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='500022672'
+2013-04-17 03:47:54 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:47:54 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:47:56 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:47:56 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '3501844'
+2013-04-17 03:47:56 UPDATE users SET basescore = '60' WHERE id = '3501844'
+2013-04-17 03:47:56 DELETE FROM friends WHERE user_id1 = '3501844' OR user_id2 = '3501844'
+2013-04-17 03:47:56 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170142'
+2013-04-17 03:47:56 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '500022672')
+2013-04-17 03:47:56 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:47:56 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170142'
+2013-04-17 03:47:56 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '534330322')
+2013-04-17 03:47:56 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:47:56 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170142'
+2013-04-17 03:47:56 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '606026803')
+2013-04-17 03:47:56 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:47:56 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1246980326' AND vaccinations.timestamp > '1366170142'
+2013-04-17 03:47:56 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:47:56 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1246980326'
+2013-04-17 03:47:56 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170142'
+2013-04-17 03:47:56 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1317645191')
+2013-04-17 03:47:56 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:47:56 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1333170290' AND vaccinations.timestamp > '1366170142'
+2013-04-17 03:47:56 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1333170290')
+2013-04-17 03:47:56 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1333170290'
+2013-04-17 03:47:56 UPDATE users SET friendscore = '500' WHERE id = '3501844'
+2013-04-17 03:47:56 UPDATE users SET friends = '1350', last_login =  '1366170476' WHERE id = '3501844'
+2013-04-17 03:51:21 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:51:21 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:51:22 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:51:22 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:51:22 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:51:22 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:51:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170326'
+2013-04-17 03:51:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:51:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:51:22 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:51:22 UPDATE users SET friends = '441', last_login =  '1366170682' WHERE id = '1246980326'
+2013-04-17 03:51:24 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='1246980326'
+2013-04-17 03:51:41 SELECT basescore, vacscore, sharescore, friendscore from users where id = '606026803'
+2013-04-17 03:51:53 UPDATE users SET `city` = 'Holmdel', `state` = 'New Jersey' WHERE id ='606026803'
+2013-04-17 03:51:57 SELECT basescore, vacscore, sharescore, friendscore from users where id = '606026803'
+2013-04-17 03:55:20 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:55:20 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:55:22 SELECT COUNT(*) as count from users WHERE `id`='3501844'
+2013-04-17 03:55:22 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '3501844'
+2013-04-17 03:55:22 UPDATE users SET basescore = '60' WHERE id = '3501844'
+2013-04-17 03:55:22 DELETE FROM friends WHERE user_id1 = '3501844' OR user_id2 = '3501844'
+2013-04-17 03:55:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170476'
+2013-04-17 03:55:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '500022672')
+2013-04-17 03:55:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:55:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170476'
+2013-04-17 03:55:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '534330322')
+2013-04-17 03:55:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:55:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170476'
+2013-04-17 03:55:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '606026803')
+2013-04-17 03:55:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:55:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1246980326' AND vaccinations.timestamp > '1366170476'
+2013-04-17 03:55:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:55:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1246980326'
+2013-04-17 03:55:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170476'
+2013-04-17 03:55:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1317645191')
+2013-04-17 03:55:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:55:22 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1333170290' AND vaccinations.timestamp > '1366170476'
+2013-04-17 03:55:22 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1333170290')
+2013-04-17 03:55:22 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1333170290'
+2013-04-17 03:55:22 UPDATE users SET friendscore = '500' WHERE id = '3501844'
+2013-04-17 03:55:22 UPDATE users SET friends = '1350', last_login =  '1366170922' WHERE id = '3501844'
+2013-04-17 03:55:33 SELECT basescore, vacscore, sharescore, friendscore from users where id = '3501844'
+2013-04-17 03:55:39 SELECT basescore, vacscore, sharescore, friendscore from users where id = '3501844'
+2013-04-17 03:56:08 SELECT basescore, vacscore, sharescore, friendscore from users where id = '3501844'
+2013-04-17 03:56:15 SELECT basescore, vacscore, sharescore, friendscore from users where id = '3501844'
+2013-04-17 03:56:17 SELECT basescore, vacscore, sharescore, friendscore from users where id = '3501844'
+2013-04-17 03:56:18 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 03:56:18 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 03:56:18 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 03:56:18 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '500022672'
+2013-04-17 03:56:18 UPDATE users SET basescore = '60' WHERE id = '500022672'
+2013-04-17 03:56:18 DELETE FROM friends WHERE user_id1 = '500022672' OR user_id2 = '500022672'
+2013-04-17 03:56:18 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170341'
+2013-04-17 03:56:18 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '500022672')
+2013-04-17 03:56:18 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:56:18 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170341'
+2013-04-17 03:56:18 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '606026803')
+2013-04-17 03:56:18 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:56:18 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '618566894' AND vaccinations.timestamp > '1366170341'
+2013-04-17 03:56:18 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '618566894')
+2013-04-17 03:56:18 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '618566894'
+2013-04-17 03:56:18 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170341'
+2013-04-17 03:56:18 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '708605683')
+2013-04-17 03:56:18 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:56:18 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1246980326' AND vaccinations.timestamp > '1366170341'
+2013-04-17 03:56:18 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:56:18 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1246980326'
+2013-04-17 03:56:18 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170341'
+2013-04-17 03:56:18 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1317645191')
+2013-04-17 03:56:18 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:56:18 UPDATE users SET friendscore = '400' WHERE id = '500022672'
+2013-04-17 03:56:18 UPDATE users SET friends = '318', last_login =  '1366170978' WHERE id = '500022672'
+2013-04-17 03:56:21 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='500022672'
+2013-04-17 03:59:06 SELECT basescore, vacscore, sharescore, friendscore from users where id = '1246980326'
+2013-04-17 03:59:10 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:59:10 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:59:12 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 03:59:12 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 03:59:12 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 03:59:12 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 03:59:12 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170682'
+2013-04-17 03:59:12 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 03:59:12 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 03:59:12 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 03:59:12 UPDATE users SET friends = '441', last_login =  '1366171152' WHERE id = '1246980326'
+2013-04-17 04:00:59 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:00:59 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:01:00 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:01:00 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 04:01:00 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 04:01:00 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 04:01:00 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366171152'
+2013-04-17 04:01:00 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 04:01:00 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 04:01:00 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 04:01:00 UPDATE users SET friends = '441', last_login =  '1366171260' WHERE id = '1246980326'
+2013-04-17 04:01:54 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:01:54 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:01:55 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:01:55 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 04:01:55 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 04:01:55 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 04:01:55 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366171260'
+2013-04-17 04:01:55 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 04:01:55 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 04:01:55 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 04:01:55 UPDATE users SET friends = '441', last_login =  '1366171315' WHERE id = '1246980326'
+2013-04-17 04:02:04 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:02:05 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:02:05 SELECT COUNT(*) as count from users WHERE `id`='1246980326'
+2013-04-17 04:02:05 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '1246980326'
+2013-04-17 04:02:05 UPDATE users SET basescore = '70' WHERE id = '1246980326'
+2013-04-17 04:02:05 DELETE FROM friends WHERE user_id1 = '1246980326' OR user_id2 = '1246980326'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '1246980326')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '500022672' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '500022672'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '534330322' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('534330322', '1246980326')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '534330322'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('606026803', '1246980326')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '631100585' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('631100585', '1246980326')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '631100585'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('708605683', '1246980326')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 04:02:05 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366171315'
+2013-04-17 04:02:05 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('1246980326', '1317645191')
+2013-04-17 04:02:05 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 04:02:05 UPDATE users SET friendscore = '500' WHERE id = '1246980326'
+2013-04-17 04:02:05 UPDATE users SET friends = '441', last_login =  '1366171325' WHERE id = '1246980326'
+2013-04-17 04:02:21 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='1246980326'
+2013-04-17 04:07:13 UPDATE users SET `city` = 'Cambridge', `state` = 'Massachusetts' WHERE id ='1246980326'
+2013-04-17 04:12:17 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 04:12:17 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 04:12:17 SELECT COUNT(*) as count from users WHERE `id`='500022672'
+2013-04-17 04:12:17 SELECT last_login, basescore, vacscore, sharescore from users WHERE id = '500022672'
+2013-04-17 04:12:17 UPDATE users SET basescore = '60' WHERE id = '500022672'
+2013-04-17 04:12:17 DELETE FROM friends WHERE user_id1 = '500022672' OR user_id2 = '500022672'
+2013-04-17 04:12:17 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '3501844' AND vaccinations.timestamp > '1366170978'
+2013-04-17 04:12:17 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('3501844', '500022672')
+2013-04-17 04:12:17 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '3501844'
+2013-04-17 04:12:17 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '606026803' AND vaccinations.timestamp > '1366170978'
+2013-04-17 04:12:17 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '606026803')
+2013-04-17 04:12:17 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '606026803'
+2013-04-17 04:12:17 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '618566894' AND vaccinations.timestamp > '1366170978'
+2013-04-17 04:12:17 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '618566894')
+2013-04-17 04:12:17 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '618566894'
+2013-04-17 04:12:17 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '708605683' AND vaccinations.timestamp > '1366170978'
+2013-04-17 04:12:17 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '708605683')
+2013-04-17 04:12:17 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '708605683'
+2013-04-17 04:12:17 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1246980326' AND vaccinations.timestamp > '1366170978'
+2013-04-17 04:12:17 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1246980326')
+2013-04-17 04:12:17 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1246980326'
+2013-04-17 04:12:17 SELECT DISTINCT vaccinations.user_id, users.name FROM vaccinations INNER JOIN users ON vaccinations.user_id = users.id WHERE vaccinations.user_id = '1317645191' AND vaccinations.timestamp > '1366170978'
+2013-04-17 04:12:17 INSERT INTO friends (`user_id1`,`user_id2`) VALUES ('500022672', '1317645191')
+2013-04-17 04:12:17 SELECT IFNULL(SUM(points), 0) FROM vaccinations WHERE user_id = '1317645191'
+2013-04-17 04:12:17 UPDATE users SET friendscore = '400' WHERE id = '500022672'
+2013-04-17 04:12:17 UPDATE users SET friends = '318', last_login =  '1366171937' WHERE id = '500022672'
+2013-04-17 04:12:22 SELECT basescore, vacscore, sharescore, friendscore from users where id = '500022672'
+2013-04-17 04:12:27 SELECT basescore, vacscore, sharescore, friendscore from users where id = '500022672'
+2013-04-17 04:12:28 SELECT basescore, vacscore, sharescore, friendscore from users where id = '500022672'

@@ -40885,3 +40885,920 @@ array(4) {
     string(10) "1333170290"
   }
 }
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(7) "3501844"
+  ["name"]=>
+  string(11) "ZeNan Chang"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(7) "3501844"
+  ["name"]=>
+  string(11) "ZeNan Chang"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(7) "3501844"
+  ["num_friends"]=>
+  string(4) "1350"
+  ["app_friends"]=>
+  array(6) {
+    [0]=>
+    string(9) "500022672"
+    [1]=>
+    string(9) "534330322"
+    [2]=>
+    string(9) "606026803"
+    [3]=>
+    string(10) "1246980326"
+    [4]=>
+    string(10) "1317645191"
+    [5]=>
+    string(10) "1333170290"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(8) "Michigan"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(10) "1246980326"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(10) "1246980326"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(9) "500022672"
+  ["name"]=>
+  string(12) "Helena Zhang"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(9) "500022672"
+  ["name"]=>
+  string(12) "Helena Zhang"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(9) "500022672"
+  ["num_friends"]=>
+  string(3) "318"
+  ["app_friends"]=>
+  array(6) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "606026803"
+    [2]=>
+    string(9) "618566894"
+    [3]=>
+    string(9) "708605683"
+    [4]=>
+    string(10) "1246980326"
+    [5]=>
+    string(10) "1317645191"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(9) "500022672"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(7) "3501844"
+  ["name"]=>
+  string(11) "ZeNan Chang"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(7) "3501844"
+  ["name"]=>
+  string(11) "ZeNan Chang"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(7) "3501844"
+  ["num_friends"]=>
+  string(4) "1350"
+  ["app_friends"]=>
+  array(6) {
+    [0]=>
+    string(9) "500022672"
+    [1]=>
+    string(9) "534330322"
+    [2]=>
+    string(9) "606026803"
+    [3]=>
+    string(10) "1246980326"
+    [4]=>
+    string(10) "1317645191"
+    [5]=>
+    string(10) "1333170290"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(10) "1246980326"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(9) "606026803"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(9) "606026803"
+  ["city"]=>
+  string(7) "Holmdel"
+  ["state"]=>
+  string(10) "New Jersey"
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(10) "New-Jersey"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(9) "606026803"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(7) "3501844"
+  ["name"]=>
+  string(11) "ZeNan Chang"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(7) "3501844"
+  ["name"]=>
+  string(11) "ZeNan Chang"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(7) "3501844"
+  ["num_friends"]=>
+  string(4) "1350"
+  ["app_friends"]=>
+  array(6) {
+    [0]=>
+    string(9) "500022672"
+    [1]=>
+    string(9) "534330322"
+    [2]=>
+    string(9) "606026803"
+    [3]=>
+    string(10) "1246980326"
+    [4]=>
+    string(10) "1317645191"
+    [5]=>
+    string(10) "1333170290"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(7) "3501844"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(7) "3501844"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(7) "3501844"
+  ["city"]=>
+  string(4) "none"
+  ["state"]=>
+  string(13) "United States"
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "United-States"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(7) "3501844"
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "United-States"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(7) "3501844"
+  ["city"]=>
+  string(4) "none"
+  ["state"]=>
+  string(13) "United States"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(7) "3501844"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(7) "3501844"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(9) "500022672"
+  ["name"]=>
+  string(12) "Helena Zhang"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(9) "500022672"
+  ["name"]=>
+  string(12) "Helena Zhang"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(9) "500022672"
+  ["num_friends"]=>
+  string(3) "318"
+  ["app_friends"]=>
+  array(6) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "606026803"
+    [2]=>
+    string(9) "618566894"
+    [3]=>
+    string(9) "708605683"
+    [4]=>
+    string(10) "1246980326"
+    [5]=>
+    string(10) "1317645191"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(9) "500022672"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(10) "1246980326"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(10) "1246980326"
+  ["name"]=>
+  string(8) "Chi Feng"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(10) "1246980326"
+  ["num_friends"]=>
+  string(3) "441"
+  ["app_friends"]=>
+  array(7) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "500022672"
+    [2]=>
+    string(9) "534330322"
+    [3]=>
+    string(9) "606026803"
+    [4]=>
+    string(9) "631100585"
+    [5]=>
+    string(9) "708605683"
+    [6]=>
+    string(10) "1317645191"
+  }
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(10) "1246980326"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(2) {
+  ["action"]=>
+  string(5) "trend"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(4) {
+  ["action"]=>
+  string(13) "user_location"
+  ["id"]=>
+  string(10) "1246980326"
+  ["city"]=>
+  string(9) "Cambridge"
+  ["state"]=>
+  string(13) "Massachusetts"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(9) "500022672"
+  ["name"]=>
+  string(12) "Helena Zhang"
+}
+array(3) {
+  ["action"]=>
+  string(12) "user_checkin"
+  ["id"]=>
+  string(9) "500022672"
+  ["name"]=>
+  string(12) "Helena Zhang"
+}
+array(4) {
+  ["action"]=>
+  string(20) "user_checkin_friends"
+  ["id"]=>
+  string(9) "500022672"
+  ["num_friends"]=>
+  string(3) "318"
+  ["app_friends"]=>
+  array(6) {
+    [0]=>
+    string(7) "3501844"
+    [1]=>
+    string(9) "606026803"
+    [2]=>
+    string(9) "618566894"
+    [3]=>
+    string(9) "708605683"
+    [4]=>
+    string(10) "1246980326"
+    [5]=>
+    string(10) "1317645191"
+  }
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(9) "500022672"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(9) "500022672"
+}
+array(2) {
+  ["action"]=>
+  string(8) "getscore"
+  ["id"]=>
+  string(9) "500022672"
+}

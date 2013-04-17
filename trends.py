@@ -47,7 +47,14 @@ def save_trends():
       data = trend[i]
       out.write('%d %0.2f\n' % (data[0], data[1]))
     out.close()
-    
 
 normalize_trends()
 save_trends()
+
+out = open('trends/national.txt', 'w')
+for i in range(1, 52):
+  name = names[i]
+  name = name.replace(" ", "-");
+  trend = trends[i]
+  out.write('%s %0.2f\n' % (name, trend[-1][1]))
+out.close()

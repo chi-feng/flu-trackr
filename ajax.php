@@ -99,6 +99,10 @@ $states_short = array(
   'NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI'
 );
 
+function process_us() {
+  
+}
+
 function process_trend($state) {
   global $allowed_states, $states_short;
   $data = array();

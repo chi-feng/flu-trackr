@@ -307,9 +307,27 @@ function rv_submit() {
 }
 
 
-
+function national_map() {
+  $('#usmap').usmap({
+    'stateStyles': {
+      fill: '#fff', 
+      "stroke-width": 1,
+      'stroke' : '#ccc'
+    },
+    'stateSpecificStyles': {
+	      'IN' : {fill: '#f00'}
+	  },
+    'stateHoverStyles': {
+      fill: '0cf'
+    },
+    'click' : function(event, data) {
+      $.ambiance({message: data.name});
+    }
+  });
+}
 
 function initialize_surveillance() {
+  national_map();
   geolocate(function(position) {
     var lat = position.coords.latitude;
     var lng = position.coords.longitude;
